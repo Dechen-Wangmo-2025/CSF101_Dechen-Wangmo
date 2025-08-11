@@ -1,6 +1,6 @@
 age = 19
 print(age)
-height = 1.62
+height = input("How tall are you?")
 print(height)
 age_in_days = 19 * 365
 print(age_in_days)
