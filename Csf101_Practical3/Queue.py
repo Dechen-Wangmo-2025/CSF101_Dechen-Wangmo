@@ -12,12 +12,12 @@ class Queue:
             return dekday.items.pop(0)
         else:
             raise IndexError("The Queue is empty")
-    def front(dekday):
+    def front(dekday): # In this only the first element is returned not popped
         if not dekday.is_empty():
             return dekday.items[1]
         else:
             raise IndexError("The Queue is empty")
-    def front(dekday):
+    def front(dekday): # In this the first element is returned as well as popped
         if not dekday.is_empty():
             return dekday.items.pop(1)
         else:
