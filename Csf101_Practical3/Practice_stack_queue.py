@@ -15,3 +15,5 @@ class Stack:
 stack = Stack()
 print(stack.pop()) 
 print(stack.elements())
+#since the stack is empty it will raise an error
+# So we need to push some elements onto the stack using push function.
